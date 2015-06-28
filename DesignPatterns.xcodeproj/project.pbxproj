@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B490FB1B403BDB00899A69 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B490FA1B403BDB00899A69 /* Duck.m */; };
+		96B491021B40443A00899A69 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491011B40443A00899A69 /* FlyWithWings.m */; };
+		96B491051B40465500899A69 /* QuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491041B40465500899A69 /* QuackBehavior.m */; };
+		96B491081B40472E00899A69 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491071B40472E00899A69 /* MallardDuck.m */; };
+		96B4910B1B404CC500899A69 /* FlyNoWayBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4910A1B404CC400899A69 /* FlyNoWayBehavior.m */; };
+		96B4910E1B404E0D00899A69 /* FlyRocketPoweredBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4910D1B404E0D00899A69 /* FlyRocketPoweredBehavior.m */; };
+		96B491111B404F2A00899A69 /* FakeQuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491101B404F2A00899A69 /* FakeQuackBehavior.m */; };
+		96B4911B1B406EEA00899A69 /* MuteQuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4911A1B406EEA00899A69 /* MuteQuackBehavior.m */; };
+		96B4911E1B406F5100899A69 /* DecoyDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B4911D1B406F5100899A69 /* DecoyDuck.m */; };
+		96B491211B40702E00899A69 /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491201B40702E00899A69 /* ModelDuck.m */; };
+		96B491241B4070DF00899A69 /* SqueakBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491231B4070DF00899A69 /* SqueakBehavior.m */; };
+		96B491271B40714700899A69 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491261B40714700899A69 /* RubberDuck.m */; };
+		96ECD98E1B3FA26A006E51FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD98D1B3FA26A006E51FA /* main.m */; };
+		96ECD9911B3FA26A006E51FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD9901B3FA26A006E51FA /* AppDelegate.m */; };
+		96ECD9941B3FA26A006E51FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD9931B3FA26A006E51FA /* ViewController.m */; };
+		96ECD9971B3FA26A006E51FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ECD9951B3FA26A006E51FA /* Main.storyboard */; };
+		96ECD9991B3FA26A006E51FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ECD9981B3FA26A006E51FA /* Images.xcassets */; };
+		96ECD99C1B3FA26A006E51FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ECD99A1B3FA26A006E51FA /* LaunchScreen.xib */; };
+		96ECD9A81B3FA26A006E51FA /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD9A71B3FA26A006E51FA /* DesignPatternsTests.m */; };
+		96ECD9B41B3FA2A5006E51FA /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD9B31B3FA2A5006E51FA /* SingletonClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96ECD9A21B3FA26A006E51FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ECD9801B3FA26A006E51FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ECD9871B3FA26A006E51FA;
+			remoteInfo = DesignPatterns;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96B490F91B403BDB00899A69 /* Duck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Duck.h; path = Strategy/DuckSimulator/Duck.h; sourceTree = "<group>"; };
+		96B490FA1B403BDB00899A69 /* Duck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Duck.m; path = Strategy/DuckSimulator/Duck.m; sourceTree = "<group>"; };
+		96B491001B40443A00899A69 /* FlyWithWings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyWithWings.h; path = Strategy/DuckSimulator/Behaviors/FlyWithWings.h; sourceTree = "<group>"; };
+		96B491011B40443A00899A69 /* FlyWithWings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlyWithWings.m; path = Strategy/DuckSimulator/Behaviors/FlyWithWings.m; sourceTree = "<group>"; };
+		96B491031B40465500899A69 /* QuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuackBehavior.h; path = Strategy/DuckSimulator/Behaviors/QuackBehavior.h; sourceTree = "<group>"; };
+		96B491041B40465500899A69 /* QuackBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuackBehavior.m; path = Strategy/DuckSimulator/Behaviors/QuackBehavior.m; sourceTree = "<group>"; };
+		96B491061B40472E00899A69 /* MallardDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MallardDuck.h; path = Strategy/DuckSimulator/MallardDuck.h; sourceTree = "<group>"; };
+		96B491071B40472E00899A69 /* MallardDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MallardDuck.m; path = Strategy/DuckSimulator/MallardDuck.m; sourceTree = "<group>"; };
+		96B491091B404CC400899A69 /* FlyNoWayBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyNoWayBehavior.h; path = Strategy/DuckSimulator/Behaviors/FlyNoWayBehavior.h; sourceTree = "<group>"; };
+		96B4910A1B404CC400899A69 /* FlyNoWayBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlyNoWayBehavior.m; path = Strategy/DuckSimulator/Behaviors/FlyNoWayBehavior.m; sourceTree = "<group>"; };
+		96B4910C1B404E0D00899A69 /* FlyRocketPoweredBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyRocketPoweredBehavior.h; path = Strategy/DuckSimulator/Behaviors/FlyRocketPoweredBehavior.h; sourceTree = "<group>"; };
+		96B4910D1B404E0D00899A69 /* FlyRocketPoweredBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlyRocketPoweredBehavior.m; path = Strategy/DuckSimulator/Behaviors/FlyRocketPoweredBehavior.m; sourceTree = "<group>"; };
+		96B4910F1B404F2A00899A69 /* FakeQuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FakeQuackBehavior.h; path = Strategy/DuckSimulator/Behaviors/FakeQuackBehavior.h; sourceTree = "<group>"; };
+		96B491101B404F2A00899A69 /* FakeQuackBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FakeQuackBehavior.m; path = Strategy/DuckSimulator/Behaviors/FakeQuackBehavior.m; sourceTree = "<group>"; };
+		96B491131B404FAB00899A69 /* FlyBehaviorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyBehaviorProtocol.h; path = Strategy/DuckSimulator/BehaviorProtocols/FlyBehaviorProtocol.h; sourceTree = "<group>"; };
+		96B491161B40502E00899A69 /* QuackBehaviorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuackBehaviorProtocol.h; path = Strategy/DuckSimulator/BehaviorProtocols/QuackBehaviorProtocol.h; sourceTree = "<group>"; };
+		96B491191B406EEA00899A69 /* MuteQuackBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MuteQuackBehavior.h; path = Strategy/DuckSimulator/Behaviors/MuteQuackBehavior.h; sourceTree = "<group>"; };
+		96B4911A1B406EEA00899A69 /* MuteQuackBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MuteQuackBehavior.m; path = Strategy/DuckSimulator/Behaviors/MuteQuackBehavior.m; sourceTree = "<group>"; };
+		96B4911C1B406F5100899A69 /* DecoyDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecoyDuck.h; path = Strategy/DuckSimulator/DecoyDuck.h; sourceTree = "<group>"; };
+		96B4911D1B406F5100899A69 /* DecoyDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecoyDuck.m; path = Strategy/DuckSimulator/DecoyDuck.m; sourceTree = "<group>"; };
+		96B4911F1B40702E00899A69 /* ModelDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDuck.h; path = Strategy/DuckSimulator/ModelDuck.h; sourceTree = "<group>"; };
+		96B491201B40702E00899A69 /* ModelDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelDuck.m; path = Strategy/DuckSimulator/ModelDuck.m; sourceTree = "<group>"; };
+		96B491221B4070DF00899A69 /* SqueakBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SqueakBehavior.h; path = Strategy/DuckSimulator/Behaviors/SqueakBehavior.h; sourceTree = "<group>"; };
+		96B491231B4070DF00899A69 /* SqueakBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SqueakBehavior.m; path = Strategy/DuckSimulator/Behaviors/SqueakBehavior.m; sourceTree = "<group>"; };
+		96B491251B40714700899A69 /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RubberDuck.h; path = Strategy/DuckSimulator/RubberDuck.h; sourceTree = "<group>"; };
+		96B491261B40714700899A69 /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RubberDuck.m; path = Strategy/DuckSimulator/RubberDuck.m; sourceTree = "<group>"; };
+		96ECD9881B3FA26A006E51FA /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECD98C1B3FA26A006E51FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ECD98D1B3FA26A006E51FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96ECD98F1B3FA26A006E51FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96ECD9901B3FA26A006E51FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96ECD9921B3FA26A006E51FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96ECD9931B3FA26A006E51FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96ECD9961B3FA26A006E51FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96ECD9981B3FA26A006E51FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96ECD99B1B3FA26A006E51FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96ECD9A11B3FA26A006E51FA /* DesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ECD9A61B3FA26A006E51FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ECD9A71B3FA26A006E51FA /* DesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsTests.m; sourceTree = "<group>"; };
+		96ECD9B21B3FA2A5006E51FA /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingletonClass.h; path = Singleton/SingletonClass.h; sourceTree = "<group>"; };
+		96ECD9B31B3FA2A5006E51FA /* SingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingletonClass.m; path = Singleton/SingletonClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96ECD9851B3FA26A006E51FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECD99E1B3FA26A006E51FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B490F71B4037F800899A69 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				96B490F81B40380300899A69 /* DuckSimulator */,
+			);
+			name = Strategy;
+			sourceTree = "<group>";
+		};
+		96B490F81B40380300899A69 /* DuckSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				96B491121B404F7000899A69 /* BehaviorProtocols */,
+				96B490FF1B4042B700899A69 /* Behaviors */,
+				96B490F91B403BDB00899A69 /* Duck.h */,
+				96B490FA1B403BDB00899A69 /* Duck.m */,
+				96B491061B40472E00899A69 /* MallardDuck.h */,
+				96B491071B40472E00899A69 /* MallardDuck.m */,
+				96B4911C1B406F5100899A69 /* DecoyDuck.h */,
+				96B4911D1B406F5100899A69 /* DecoyDuck.m */,
+				96B4911F1B40702E00899A69 /* ModelDuck.h */,
+				96B491201B40702E00899A69 /* ModelDuck.m */,
+				96B491251B40714700899A69 /* RubberDuck.h */,
+				96B491261B40714700899A69 /* RubberDuck.m */,
+			);
+			name = DuckSimulator;
+			sourceTree = "<group>";
+		};
+		96B490FF1B4042B700899A69 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				96B491001B40443A00899A69 /* FlyWithWings.h */,
+				96B491011B40443A00899A69 /* FlyWithWings.m */,
+				96B491031B40465500899A69 /* QuackBehavior.h */,
+				96B491041B40465500899A69 /* QuackBehavior.m */,
+				96B491091B404CC400899A69 /* FlyNoWayBehavior.h */,
+				96B4910A1B404CC400899A69 /* FlyNoWayBehavior.m */,
+				96B4910C1B404E0D00899A69 /* FlyRocketPoweredBehavior.h */,
+				96B4910D1B404E0D00899A69 /* FlyRocketPoweredBehavior.m */,
+				96B4910F1B404F2A00899A69 /* FakeQuackBehavior.h */,
+				96B491101B404F2A00899A69 /* FakeQuackBehavior.m */,
+				96B491191B406EEA00899A69 /* MuteQuackBehavior.h */,
+				96B4911A1B406EEA00899A69 /* MuteQuackBehavior.m */,
+				96B491221B4070DF00899A69 /* SqueakBehavior.h */,
+				96B491231B4070DF00899A69 /* SqueakBehavior.m */,
+			);
+			name = Behaviors;
+			sourceTree = "<group>";
+		};
+		96B491121B404F7000899A69 /* BehaviorProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				96B491131B404FAB00899A69 /* FlyBehaviorProtocol.h */,
+				96B491161B40502E00899A69 /* QuackBehaviorProtocol.h */,
+			);
+			name = BehaviorProtocols;
+			sourceTree = "<group>";
+		};
+		96ECD97F1B3FA26A006E51FA = {
+			isa = PBXGroup;
+			children = (
+				96ECD98A1B3FA26A006E51FA /* DesignPatterns */,
+				96ECD9A41B3FA26A006E51FA /* DesignPatternsTests */,
+				96ECD9891B3FA26A006E51FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96ECD9891B3FA26A006E51FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD9881B3FA26A006E51FA /* DesignPatterns.app */,
+				96ECD9A11B3FA26A006E51FA /* DesignPatternsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96ECD98A1B3FA26A006E51FA /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				96B490F71B4037F800899A69 /* Strategy */,
+				96ECD9B11B3FA278006E51FA /* Singleton */,
+				96ECD98F1B3FA26A006E51FA /* AppDelegate.h */,
+				96ECD9901B3FA26A006E51FA /* AppDelegate.m */,
+				96ECD9921B3FA26A006E51FA /* ViewController.h */,
+				96ECD9931B3FA26A006E51FA /* ViewController.m */,
+				96ECD9951B3FA26A006E51FA /* Main.storyboard */,
+				96ECD9981B3FA26A006E51FA /* Images.xcassets */,
+				96ECD99A1B3FA26A006E51FA /* LaunchScreen.xib */,
+				96ECD98B1B3FA26A006E51FA /* Supporting Files */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		96ECD98B1B3FA26A006E51FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD98C1B3FA26A006E51FA /* Info.plist */,
+				96ECD98D1B3FA26A006E51FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96ECD9A41B3FA26A006E51FA /* DesignPatternsTests */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD9A71B3FA26A006E51FA /* DesignPatternsTests.m */,
+				96ECD9A51B3FA26A006E51FA /* Supporting Files */,
+			);
+			path = DesignPatternsTests;
+			sourceTree = "<group>";
+		};
+		96ECD9A51B3FA26A006E51FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD9A61B3FA26A006E51FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96ECD9B11B3FA278006E51FA /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				96ECD9B21B3FA2A5006E51FA /* SingletonClass.h */,
+				96ECD9B31B3FA2A5006E51FA /* SingletonClass.m */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96ECD9871B3FA26A006E51FA /* DesignPatterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECD9AB1B3FA26A006E51FA /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
+			buildPhases = (
+				96ECD9841B3FA26A006E51FA /* Sources */,
+				96ECD9851B3FA26A006E51FA /* Frameworks */,
+				96ECD9861B3FA26A006E51FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignPatterns;
+			productName = DesignPatterns;
+			productReference = 96ECD9881B3FA26A006E51FA /* DesignPatterns.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96ECD9A01B3FA26A006E51FA /* DesignPatternsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ECD9AE1B3FA26A006E51FA /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */;
+			buildPhases = (
+				96ECD99D1B3FA26A006E51FA /* Sources */,
+				96ECD99E1B3FA26A006E51FA /* Frameworks */,
+				96ECD99F1B3FA26A006E51FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ECD9A31B3FA26A006E51FA /* PBXTargetDependency */,
+			);
+			name = DesignPatternsTests;
+			productName = DesignPatternsTests;
+			productReference = 96ECD9A11B3FA26A006E51FA /* DesignPatternsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96ECD9801B3FA26A006E51FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ramirez, Jorge";
+				TargetAttributes = {
+					96ECD9871B3FA26A006E51FA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					96ECD9A01B3FA26A006E51FA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 96ECD9871B3FA26A006E51FA;
+					};
+				};
+			};
+			buildConfigurationList = 96ECD9831B3FA26A006E51FA /* Build configuration list for PBXProject "DesignPatterns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96ECD97F1B3FA26A006E51FA;
+			productRefGroup = 96ECD9891B3FA26A006E51FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96ECD9871B3FA26A006E51FA /* DesignPatterns */,
+				96ECD9A01B3FA26A006E51FA /* DesignPatternsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96ECD9861B3FA26A006E51FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECD9971B3FA26A006E51FA /* Main.storyboard in Resources */,
+				96ECD99C1B3FA26A006E51FA /* LaunchScreen.xib in Resources */,
+				96ECD9991B3FA26A006E51FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECD99F1B3FA26A006E51FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96ECD9841B3FA26A006E51FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B491271B40714700899A69 /* RubberDuck.m in Sources */,
+				96B491211B40702E00899A69 /* ModelDuck.m in Sources */,
+				96B4911E1B406F5100899A69 /* DecoyDuck.m in Sources */,
+				96B490FB1B403BDB00899A69 /* Duck.m in Sources */,
+				96ECD9B41B3FA2A5006E51FA /* SingletonClass.m in Sources */,
+				96B4911B1B406EEA00899A69 /* MuteQuackBehavior.m in Sources */,
+				96B491111B404F2A00899A69 /* FakeQuackBehavior.m in Sources */,
+				96ECD9941B3FA26A006E51FA /* ViewController.m in Sources */,
+				96B491241B4070DF00899A69 /* SqueakBehavior.m in Sources */,
+				96B4910B1B404CC500899A69 /* FlyNoWayBehavior.m in Sources */,
+				96ECD9911B3FA26A006E51FA /* AppDelegate.m in Sources */,
+				96B491081B40472E00899A69 /* MallardDuck.m in Sources */,
+				96ECD98E1B3FA26A006E51FA /* main.m in Sources */,
+				96B491051B40465500899A69 /* QuackBehavior.m in Sources */,
+				96B4910E1B404E0D00899A69 /* FlyRocketPoweredBehavior.m in Sources */,
+				96B491021B40443A00899A69 /* FlyWithWings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ECD99D1B3FA26A006E51FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECD9A81B3FA26A006E51FA /* DesignPatternsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96ECD9A31B3FA26A006E51FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ECD9871B3FA26A006E51FA /* DesignPatterns */;
+			targetProxy = 96ECD9A21B3FA26A006E51FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96ECD9951B3FA26A006E51FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ECD9961B3FA26A006E51FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96ECD99A1B3FA26A006E51FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ECD99B1B3FA26A006E51FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96ECD9A91B3FA26A006E51FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96ECD9AA1B3FA26A006E51FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96ECD9AC1B3FA26A006E51FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96ECD9AD1B3FA26A006E51FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96ECD9AF1B3FA26A006E51FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
+			};
+			name = Debug;
+		};
+		96ECD9B01B3FA26A006E51FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96ECD9831B3FA26A006E51FA /* Build configuration list for PBXProject "DesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECD9A91B3FA26A006E51FA /* Debug */,
+				96ECD9AA1B3FA26A006E51FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECD9AB1B3FA26A006E51FA /* Build configuration list for PBXNativeTarget "DesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECD9AC1B3FA26A006E51FA /* Debug */,
+				96ECD9AD1B3FA26A006E51FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ECD9AE1B3FA26A006E51FA /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ECD9AF1B3FA26A006E51FA /* Debug */,
+				96ECD9B01B3FA26A006E51FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96ECD9801B3FA26A006E51FA /* Project object */;
+}
