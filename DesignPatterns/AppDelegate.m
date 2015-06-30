@@ -11,6 +11,7 @@
 #import "DecoyDuck.h"
 #import "RubberDuck.h"
 #import "FlyNoWayBehavior.h"
+#import "Facade.h"
 
 @interface AppDelegate ()
 
@@ -44,6 +45,9 @@
     [rubberDuck display];
     [rubberDuck fly];
     [rubberDuck quack];
+    
+    Facade *facade = [[Facade alloc] init];
+    NSLog(@"%@", [facade doSomething]);
     
     
     return YES;

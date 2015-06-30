@@ -19,6 +19,12 @@
 		96B491211B40702E00899A69 /* ModelDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491201B40702E00899A69 /* ModelDuck.m */; };
 		96B491241B4070DF00899A69 /* SqueakBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491231B4070DF00899A69 /* SqueakBehavior.m */; };
 		96B491271B40714700899A69 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B491261B40714700899A69 /* RubberDuck.m */; };
+		96E914151B41FB4E003AED7F /* ConcreteStrategyA.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E914141B41FB4E003AED7F /* ConcreteStrategyA.m */; };
+		96E914181B41FC0C003AED7F /* ConcreteStrategyB.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E914171B41FC0C003AED7F /* ConcreteStrategyB.m */; };
+		96E914211B421F02003AED7F /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E914201B421F02003AED7F /* Context.m */; };
+		96E914261B4223C4003AED7F /* SubsystemA.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E914251B4223C4003AED7F /* SubsystemA.m */; };
+		96E914291B4223D9003AED7F /* SubsystemB.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E914281B4223D9003AED7F /* SubsystemB.m */; };
+		96E9142C1B42248A003AED7F /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9142B1B42248A003AED7F /* Facade.m */; };
 		96ECD98E1B3FA26A006E51FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD98D1B3FA26A006E51FA /* main.m */; };
 		96ECD9911B3FA26A006E51FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD9901B3FA26A006E51FA /* AppDelegate.m */; };
 		96ECD9941B3FA26A006E51FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ECD9931B3FA26A006E51FA /* ViewController.m */; };
@@ -66,6 +72,19 @@
 		96B491231B4070DF00899A69 /* SqueakBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SqueakBehavior.m; path = Strategy/DuckSimulator/Behaviors/SqueakBehavior.m; sourceTree = "<group>"; };
 		96B491251B40714700899A69 /* RubberDuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RubberDuck.h; path = Strategy/DuckSimulator/RubberDuck.h; sourceTree = "<group>"; };
 		96B491261B40714700899A69 /* RubberDuck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RubberDuck.m; path = Strategy/DuckSimulator/RubberDuck.m; sourceTree = "<group>"; };
+		96E9140F1B41FA59003AED7F /* StrategyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StrategyProtocol.h; path = Strategy/BasicTemplate/StrategyProtocols/StrategyProtocol.h; sourceTree = "<group>"; };
+		96E914131B41FB4E003AED7F /* ConcreteStrategyA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteStrategyA.h; path = Strategy/BasicTemplate/Strategies/ConcreteStrategyA.h; sourceTree = "<group>"; };
+		96E914141B41FB4E003AED7F /* ConcreteStrategyA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteStrategyA.m; path = Strategy/BasicTemplate/Strategies/ConcreteStrategyA.m; sourceTree = "<group>"; };
+		96E914161B41FC0C003AED7F /* ConcreteStrategyB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConcreteStrategyB.h; path = Strategy/BasicTemplate/Strategies/ConcreteStrategyB.h; sourceTree = "<group>"; };
+		96E914171B41FC0C003AED7F /* ConcreteStrategyB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConcreteStrategyB.m; path = Strategy/BasicTemplate/Strategies/ConcreteStrategyB.m; sourceTree = "<group>"; };
+		96E9141F1B421F02003AED7F /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Context.h; path = Strategy/Context.h; sourceTree = "<group>"; };
+		96E914201B421F02003AED7F /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Context.m; path = Strategy/Context.m; sourceTree = "<group>"; };
+		96E914241B4223C4003AED7F /* SubsystemA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubsystemA.h; path = Facade/ComplexSubsystem/SubsystemA.h; sourceTree = "<group>"; };
+		96E914251B4223C4003AED7F /* SubsystemA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubsystemA.m; path = Facade/ComplexSubsystem/SubsystemA.m; sourceTree = "<group>"; };
+		96E914271B4223D9003AED7F /* SubsystemB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubsystemB.h; path = Facade/ComplexSubsystem/SubsystemB.h; sourceTree = "<group>"; };
+		96E914281B4223D9003AED7F /* SubsystemB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubsystemB.m; path = Facade/ComplexSubsystem/SubsystemB.m; sourceTree = "<group>"; };
+		96E9142A1B42248A003AED7F /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Facade.h; path = Facade/Facade.h; sourceTree = "<group>"; };
+		96E9142B1B42248A003AED7F /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Facade.m; path = Facade/Facade.m; sourceTree = "<group>"; };
 		96ECD9881B3FA26A006E51FA /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ECD98C1B3FA26A006E51FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96ECD98D1B3FA26A006E51FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +123,7 @@
 		96B490F71B4037F800899A69 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				96E9140D1B41F998003AED7F /* BasicTemplate */,
 				96B490F81B40380300899A69 /* DuckSimulator */,
 			);
 			name = Strategy;
@@ -158,6 +178,57 @@
 			name = BehaviorProtocols;
 			sourceTree = "<group>";
 		};
+		96E9140D1B41F998003AED7F /* BasicTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				96E914121B41FAF6003AED7F /* Strategies */,
+				96E9140E1B41F9E5003AED7F /* StrategyProtocols */,
+				96E9141F1B421F02003AED7F /* Context.h */,
+				96E914201B421F02003AED7F /* Context.m */,
+			);
+			name = BasicTemplate;
+			sourceTree = "<group>";
+		};
+		96E9140E1B41F9E5003AED7F /* StrategyProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				96E9140F1B41FA59003AED7F /* StrategyProtocol.h */,
+			);
+			name = StrategyProtocols;
+			sourceTree = "<group>";
+		};
+		96E914121B41FAF6003AED7F /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				96E914131B41FB4E003AED7F /* ConcreteStrategyA.h */,
+				96E914141B41FB4E003AED7F /* ConcreteStrategyA.m */,
+				96E914161B41FC0C003AED7F /* ConcreteStrategyB.h */,
+				96E914171B41FC0C003AED7F /* ConcreteStrategyB.m */,
+			);
+			name = Strategies;
+			sourceTree = "<group>";
+		};
+		96E914221B42222C003AED7F /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				96E914231B4222A8003AED7F /* ComplexSubsystem */,
+				96E9142A1B42248A003AED7F /* Facade.h */,
+				96E9142B1B42248A003AED7F /* Facade.m */,
+			);
+			name = Facade;
+			sourceTree = "<group>";
+		};
+		96E914231B4222A8003AED7F /* ComplexSubsystem */ = {
+			isa = PBXGroup;
+			children = (
+				96E914241B4223C4003AED7F /* SubsystemA.h */,
+				96E914251B4223C4003AED7F /* SubsystemA.m */,
+				96E914271B4223D9003AED7F /* SubsystemB.h */,
+				96E914281B4223D9003AED7F /* SubsystemB.m */,
+			);
+			name = ComplexSubsystem;
+			sourceTree = "<group>";
+		};
 		96ECD97F1B3FA26A006E51FA = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +250,7 @@
 		96ECD98A1B3FA26A006E51FA /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				96E914221B42222C003AED7F /* Facade */,
 				96B490F71B4037F800899A69 /* Strategy */,
 				96ECD9B11B3FA278006E51FA /* Singleton */,
 				96ECD98F1B3FA26A006E51FA /* AppDelegate.h */,
@@ -331,19 +403,25 @@
 				96B491271B40714700899A69 /* RubberDuck.m in Sources */,
 				96B491211B40702E00899A69 /* ModelDuck.m in Sources */,
 				96B4911E1B406F5100899A69 /* DecoyDuck.m in Sources */,
+				96E914291B4223D9003AED7F /* SubsystemB.m in Sources */,
 				96B490FB1B403BDB00899A69 /* Duck.m in Sources */,
 				96ECD9B41B3FA2A5006E51FA /* SingletonClass.m in Sources */,
 				96B4911B1B406EEA00899A69 /* MuteQuackBehavior.m in Sources */,
+				96E914181B41FC0C003AED7F /* ConcreteStrategyB.m in Sources */,
 				96B491111B404F2A00899A69 /* FakeQuackBehavior.m in Sources */,
 				96ECD9941B3FA26A006E51FA /* ViewController.m in Sources */,
 				96B491241B4070DF00899A69 /* SqueakBehavior.m in Sources */,
 				96B4910B1B404CC500899A69 /* FlyNoWayBehavior.m in Sources */,
 				96ECD9911B3FA26A006E51FA /* AppDelegate.m in Sources */,
+				96E9142C1B42248A003AED7F /* Facade.m in Sources */,
 				96B491081B40472E00899A69 /* MallardDuck.m in Sources */,
+				96E914211B421F02003AED7F /* Context.m in Sources */,
 				96ECD98E1B3FA26A006E51FA /* main.m in Sources */,
 				96B491051B40465500899A69 /* QuackBehavior.m in Sources */,
+				96E914151B41FB4E003AED7F /* ConcreteStrategyA.m in Sources */,
 				96B4910E1B404E0D00899A69 /* FlyRocketPoweredBehavior.m in Sources */,
 				96B491021B40443A00899A69 /* FlyWithWings.m in Sources */,
+				96E914261B4223C4003AED7F /* SubsystemA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
